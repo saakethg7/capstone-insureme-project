@@ -3,7 +3,7 @@ node {
     stage('checkout code'){
         
         echo "checkout code from git"
-        git 'https://www.github.com/shubhamkushwah123/war-test.git'
+        git 'https://github.com/saakethg7/capstone-insureme-project.git'
     }
     
     stage('code build,test, package'){
